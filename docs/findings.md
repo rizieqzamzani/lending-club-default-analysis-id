@@ -135,4 +135,3 @@ Kalau pola Medium > Large muncul secara konsisten di data yang lebih besar, meka
 
 - Cross-analysis grade × purpose dan grade × loan amount. Percobaan awal grade × purpose menghasilkan 74 kombinasi, dengan banyak kombinasi berisi sangat sedikit loan (5 kombinasi hanya 1 loan), jadi perlu ambang minimum jumlah loan sebelum dibandingkan atau diranking.
 - Vintage analysis: hitung ulang default rate hanya untuk loan yang sudah selesai berjalan.
-- Window functions: ranking default rate per grade (CTE + RANK) sudah dibuat; selanjutnya ranking di dalam segmen (PARTITION BY).
